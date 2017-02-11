@@ -6,7 +6,7 @@
     <style>
       body {
         font-family: 'Lato', sans-serif;
-        font-size: 14px;
+        font-size: 24px;
       }
     </style>
 </head>
