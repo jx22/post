@@ -12,7 +12,7 @@
      body {
         font-family: 'Lato', sans-serif;
         font-size: 14px;
-        background: 373738
+        background: #373738;
       }
     </style>
 </head>
