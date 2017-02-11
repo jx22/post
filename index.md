@@ -14,9 +14,6 @@
         font-size: 24px;
         background: #373738;
       }
-     @-ms-viewport{
-        width: device-width;
-     }
     </style>
 </head>
 
