@@ -11,7 +11,7 @@
       }
      body {
         font-family: 'Lato', sans-serif;
-        font-size: 14px;
+        font-size: 24px;
         background: #373738;
       }
     </style>
@@ -20,7 +20,6 @@
 <body>
 <h1>POST</h1>
 
-More to come!
-
-So stay tuned!
+<p>More to come!</p>
+<p>So stay tuned!</p>
 </body>
