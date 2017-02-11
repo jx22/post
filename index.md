@@ -7,10 +7,12 @@
       h1 {
         font-family: 'Lato', sans-serif;
         font-size: 48px;
+        color: blue;
       }
      body {
         font-family: 'Lato', sans-serif;
         font-size: 14px;
+        background: 373738
       }
     </style>
 </head>
