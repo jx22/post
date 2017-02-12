@@ -24,12 +24,8 @@
 
 <body>
 <h1>POST</h1>
-<p></p>
-<p></p>
-<div id='map' style='width: 400px; height: 300px; class='limiter keyline-all clearfix'>
-      <div class='col4 margin4 pad2 fill-green dark'>A div wrapped in parent with a <code>.limiter</code> class.
-    </div>
-</div>
+
+<div id='map' style='width: 400px; height: 300px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoianh4IiwiYSI6IjUxNWVmNGYzZGRmOTU1ZjEwY2JkMzVlNTg1MGI5OWY5In0.JoebSQedSPap-0FYAQ00wg';
 var map = new mapboxgl.Map({
@@ -39,8 +35,7 @@ var map = new mapboxgl.Map({
     zoom: 9.9 // starting zoom
 });
 </script>
-<p></p>
-<p></p>
+
 <p>More to come!</p>
 <p>So stay tuned!</p>
 </body>
