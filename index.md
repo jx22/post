@@ -25,7 +25,7 @@
 <body>
 <h1>POST</h1>
 
-<div id='map'></div>
+<div id='map' style='width: 400px; height: 300px;'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoianh4IiwiYSI6IjUxNWVmNGYzZGRmOTU1ZjEwY2JkMzVlNTg1MGI5OWY5In0.JoebSQedSPap-0FYAQ00wg';
 var map = new mapboxgl.Map({
