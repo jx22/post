@@ -8,7 +8,7 @@
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
     <style>
      body { margin:70; padding:50; }
-        #map { position:absolute; top:60; bottom:50; width:100%; }
+        #map { position:absolute; top:90; bottom:50; width:100%; }
       h1 {
         font-family: 'Lato', sans-serif;
         font-size: 48px;
@@ -35,8 +35,6 @@ var map = new mapboxgl.Map({
     zoom: 9.9 // starting zoom
 });
 </script>
-<p></p>
-<p></p>
 <p></p>
 <p></p>
 <p>More to come!</p>
