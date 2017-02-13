@@ -7,8 +7,8 @@
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
     <style>
-     body { margin:0; padding:0; }
-        #map { position:absolute; top:190; bottom:250; width:100%; }
+     body { margin:40; padding:0; }
+        #map { position:absolute; top:120; bottom:150; width:100%; }
       h1 {
         font-family: 'Lato', sans-serif;
         font-size: 48px;
@@ -23,6 +23,7 @@
 </head>
 
 <body>
+<p></p>
 <h1>POST</h1>
 
 <div id='map' style='width: 400px; height: 300px;'></div>
