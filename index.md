@@ -7,7 +7,7 @@
         <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
     <style>
-     body { margin:40; padding:0; }
+     body { margin:90; padding:0; }
         #map { position:absolute; top:120; bottom:150; width:100%; }
       h1 {
         font-family: 'Lato', sans-serif;
@@ -38,6 +38,11 @@ var map = new mapboxgl.Map({
 </script>
 <p></p>
 <p></p>
-<p>More to come!</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p>So stay tuned!</p>
 </body>
