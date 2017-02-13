@@ -8,7 +8,7 @@
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
     <style>
      body { margin:0; padding:0; }
-        #map { position:absolute; top:90; bottom:120; width:100%; }
+        #map { position:absolute; top:190; bottom:250; width:100%; }
       h1 {
         font-family: 'Lato', sans-serif;
         font-size: 48px;
