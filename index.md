@@ -20,8 +20,16 @@
           firebase.initializeApp(config);
           // Get a reference to the database service
           var database = firebase.database();
-
+          var webPage = require('webpage');
+          var page = webPage.create();
+          page.open('http://phantomjs.org', function (status) {
+          console.log('Stripped down page text:\n' + page.plainText);
+          phantom.exit();
+          });
+        
         </script>
+
+        
 
   <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-auth.js"></script>
