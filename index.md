@@ -18,6 +18,9 @@
             messagingSenderId: "65912592248"
           };
           firebase.initializeApp(config);
+          // Get a reference to the database service
+          var database = firebase.database();
+
         </script>
 
   <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-app.js"></script>
