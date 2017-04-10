@@ -122,4 +122,16 @@ var map = new mapboxgl.Map({
 <p></p>
 <p></p>
 <p>So stay tuned!</p>
+
+<p></p>
+
+<dl class="form">
+                <dd>
+                  <label class="form-label text-shadow-light sr-only" for="user[login]">Pick a username</label>
+                  <input type="text" name="user[login]" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" data-autocheck-url="/signup_check/username" data-autocheck-authenticity-token="aeZhXm5Xjv5IrXWYOQjDbu6oNBWEqvMBBn3yxRPZMw2gpgUa7furQRtH9KzAMerHQ4GxVyVUmtp8+bOp+pCOBg==" autofocus="">
+                </dd>
+              </dl>
+
+<p></p>
+
 </body>
