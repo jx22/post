@@ -22,8 +22,6 @@
 
 <p></p>
 <h1>Submissions</h1>
-
-<br>
 <br>
 
 <p>Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</p>
