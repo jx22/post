@@ -37,21 +37,20 @@ var map = new mapboxgl.Map({
     zoom: 9.9 // starting zoom
 });
 </script>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 <p>So stay tuned!</p>
 
 <p></p>
 <p></p>
-
-</body>
