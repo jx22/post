@@ -48,7 +48,7 @@ var map = new mapboxgl.Map({
 <br>
 <br>
 
-<p><a href="/submissions">Click to request travel reservations</a></p>
+<p><a href="/post/submissions">Click to request travel reservations</a></p>
 
 <p></p>
 <p></p>
