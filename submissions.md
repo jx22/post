@@ -27,7 +27,6 @@
 <p>Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</p>
 
 <br>
-<br>
 
 <dl class="form">
                 <dd>
