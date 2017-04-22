@@ -6,56 +6,6 @@
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
   
-  <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
-        <script>
-          // Initialize Firebase
-          var config = {
-            apiKey: "AIzaSyDnBjPeImep36ck5POjfbOtVZedgbuYQ14",
-            authDomain: "post-84657.firebaseapp.com",
-            databaseURL: "https://post-84657.firebaseio.com",
-            projectId: "post-84657",
-            storageBucket: "post-84657.appspot.com",
-            messagingSenderId: "65912592248"
-          };
-          firebase.initializeApp(config);
-          // Get a reference to the database service
-          var database = firebase.database();
-          var webPage = require('webpage');
-          var page = webPage.create();
-          page.open('http://phantomjs.org', function (status) {
-          console.log('Stripped down page text:\n' + page.plainText);
-          phantom.exit();
-          });
-        
-        </script>
-
-        
-
-  <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-messaging.js"></script>
-
-  <!-- Leave out Storage -->
-  <!-- <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-storage.js"></script> -->
-
-  <script>
-    var config = {
-     // ...
-    };
-    firebase.initializeApp(config);
-  </script>
-
-
- <!-- Firebase -->
-  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-
-  <!-- CodeMirror -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"/>
-
-
-
   <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
         <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
     <style>
@@ -76,25 +26,6 @@
 
 <body onload="init()">
   <div id="firepad"></div>
-  <script>
-    function init() {
-      // Initialize the Firebase SDK.
-      firebase.initializeApp({
-        apiKey: 'AIzaSyDnBjPeImep36ck5POjfbOtVZedgbuYQ14',
-        databaseURL: 'https://post-84657.firebaseio.com'
-      });
-
-      // Get Firebase Database reference.
-      var firepadRef = firebase.database().ref();
-
-      // Create CodeMirror (with lineWrapping on).
-      var codeMirror = CodeMirror(document.getElementById('firepad'), { lineWrapping: true });
-
-      // Create Firepad (with rich text toolbar and shortcuts enabled).
-      var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror,
-          { richTextShortcuts: true, richTextToolbar: true, defaultText: 'Hello, World!' });
-    }
-  </script>
 
 <p></p>
 <h1>POST</h1>
