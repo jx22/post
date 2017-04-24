@@ -18,6 +18,21 @@
         background: #373738;
       }
     </style>
+
+<script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDnBjPeImep36ck5POjfbOtVZedgbuYQ14",
+    authDomain: "post-84657.firebaseapp.com",
+    databaseURL: "https://post-84657.firebaseio.com",
+    projectId: "post-84657",
+    storageBucket: "post-84657.appspot.com",
+    messagingSenderId: "65912592248"
+  };
+  firebase.initializeApp(config);
+</script>
+
 </head>
 
 <p></p>
