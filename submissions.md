@@ -19,6 +19,23 @@
       }
     </style>
 
+</head>
+
+<p></p>
+<h1>Submissions</h1>
+<br>
+
+<p>Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</p>
+
+<br>
+
+<div class="mainDiv" align="right">
+    <h1 align="left">Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</h1>
+    <textarea placeholder="Enter text here"></textarea>
+    <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+</div>
+
+
 <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -33,21 +50,6 @@
   firebase.initializeApp(config);
 </script>
 
-</head>
-
-<p></p>
-<h1>Submissions</h1>
-<br>
-
-<p>Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</p>
-
-<br>
-
-<dl class="form">
-                <dd>
-                  <label class="form-label text-shadow-light sr-only" for="user[login]">Pick a username</label>
-                  <input type="text" name="user[login]" id="user[login]" class="form-control form-control-lg input-block" placeholder="Pick a username" data-autocheck-url="/signup_check/username" data-autocheck-authenticity-token="aeZhXm5Xjv5IrXWYOQjDbu6oNBWEqvMBBn3yxRPZMw2gpgUa7furQRtH9KzAMerHQ4GxVyVUmtp8+bOp+pCOBg==" autofocus="">
-                </dd>
-              </dl>
+<script src="index.js"></script>
 
 <p></p>
