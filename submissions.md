@@ -32,7 +32,7 @@
 <div class="mainDiv" align="center">
     <h1 align="left">Please enter your preferred flight for your trip, along with your contact information. A representative will reach you to confirm your reservations.</h1>
     <textarea rows="5" cols="50" placeholder="Enter text here" autofocus></textarea>
-    <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    <input type="submit" value="Submit">
 </div>
 
 
