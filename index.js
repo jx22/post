@@ -3,6 +3,8 @@ var submitBtn = document.getElementById("submitBtn");
 
 function submitClick() {
 
-    window.alert("Working");
+    var firebaseRef = firebase.database().ref()
+    firebaseRef.child("Text").set("SomeValue"); 
+
 
 }
