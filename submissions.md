@@ -34,7 +34,6 @@
     <input id="submitBtn" onclick="submitClick()" type="submit" value="Submit">
 </div>
 
-
 <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
 <script>
   // Initialize Firebase
