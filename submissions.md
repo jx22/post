@@ -31,20 +31,9 @@
 
 <div class="mainDiv" align="center">
     <textarea id="mainText" rows="5" cols="100" placeholder="Enter text here" autofocus></textarea>
-    <input id="submitBtn" onclick="submitClick()" onclick="onclick="myFunction()" type="submit" value="Submit">
+    <input id="submitBtn" onclick="submitClick()" type="submit" value="Submit">
 </div>
 
-<script>
-function myFunction() {
-    var txt;
-    if (confirm("Press a button!") == true) {
-        txt = "Your submission has been accepted!";
-    } else {
-        txt = "Please complete your submission, or try again later.";
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-</script>
 
 <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
 <script>
