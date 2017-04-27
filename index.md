@@ -24,7 +24,11 @@
     </style>
 </head>
 
-<p></p>
+<br>
+<br>
+<br>
+<br>
+
 <h1>POST</h1>
 
 <div id='map' style='width: 400px; height: 300px;'></div>
@@ -38,6 +42,10 @@ var map = new mapboxgl.Map({
 });
 </script>
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
